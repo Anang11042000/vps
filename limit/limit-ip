@@ -19,7 +19,7 @@ curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TE
 function vmip(){
 #LIMITVMESSIP
 echo -n > /var/log/xray/access.log
-sleep 120
+sleep 600
 data=( `ls /etc/kyt/limit/vmess/ip`);
 #Decrypted By YADDY D PHREAKER
     for user in "${data[@]}"
@@ -45,7 +45,7 @@ data=( `ls /etc/kyt/limit/vmess/ip`);
 function vlip(){
 #LIMITVLESSIP
 echo -n > /var/log/xray/access.log
-sleep 120
+sleep 600
 data=( `ls /etc/kyt/limit/vless/ip`);
 #Decrypted By YADDY D PHREAKER
     for user in "${data[@]}"
@@ -70,7 +70,7 @@ data=( `ls /etc/kyt/limit/vless/ip`);
 function trip(){
 #LIMITIPTROJAN
 echo -n > /var/log/xray/access.log
-sleep 120
+sleep 600
 data=( `ls /etc/kyt/limit/trojan/ip`);
 #Decrypted By YADDY D PHREAKER
     for user in "${data[@]}"
